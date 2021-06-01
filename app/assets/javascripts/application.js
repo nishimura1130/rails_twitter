@@ -16,4 +16,6 @@
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
+//= require rails-ujs
+//= require jquery/dist/jquery.js
 //= require_tree .

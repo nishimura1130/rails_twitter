@@ -1,10 +1,10 @@
-
-<footer>
+<h2>Postを編集する</h2>
 <table>
   <tr>
     <th>タイトル</th>
     <th>内容</th>
   </tr>
+<main>
 <% @posts.each do |post| %>
   <tr>
     <td><%= post.title %></td>
@@ -21,7 +21,8 @@
 <%= link_to 'ブログ一覧画面に戻る', '/posts' %>
 <br>
 <%= link_to '新しくブログを投稿する', new_post_path %>
-</footer> 
+</main>
+
 
 
 
